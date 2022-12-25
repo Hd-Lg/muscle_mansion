@@ -5,13 +5,8 @@ module.exports = {
     extend: {
       colors: {
         "dark-20": "#191919",
-        "primary-300": "#C7C6C6",
+        "primary-300": "#cccccc",
       },
-      backgroundImage: (theme) => ({
-        "gradient-yellowred":
-          "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
-        "mobile-home": "url('./assets/HomePageGraphic.png')",
-      }),
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
